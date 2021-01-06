@@ -5875,9 +5875,7 @@ int cfg80211_external_auth_request(struct net_device *netdev,
  * @owe_info: peer's owe info
  * @gfp: allocation flags
  */
-void cfg80211_update_owe_info_event(struct net_device *netdev,
-				    struct cfg80211_update_owe_info *owe_info,
-				    gfp_t gfp);
+
 
 
 /* Due to our tree having a backport of
